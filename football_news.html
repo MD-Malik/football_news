@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football News</title>
+    <style>
+      .container {
+        display: inline-grid;
+        grid-row-gap: 18px;
+        grid-column-gap: 18px;
+      }
+      .item1, .item2 {
+        grid-row-start: 1;
+      }
+      .item3, .item4{
+        grid-row-start: 2;
+        margin-bottom: -22px;
+      }
+      .item5, .item6{
+        grid-row-start: 3;
+        margin-bottom: -22px;
+      }
+      .item7, .item8{
+        grid-row-start: 4;
+      }
+      img{
+        height: 70px;
+        width: 70px;
+      }
+      .big_img{
+        height: 170px;
+        width: 270px;
+      }
+      .item{
+        display: flex;
+        flex-direction: row;
+      }
+      h2{
+        font-size: 14px;
+      }
+      p{
+        font-size: 11px;
+        position: relative;
+        bottom: 10px;
+        color: rgb(211, 211, 211);
+      }
+      .para_container{
+        display: flex;
+        flex-direction: row;
+      }
+      .heading_para{
+        position: relative;
+        left: 12px;
+        bottom: 7px;
+      }
+      p+p{
+        margin-left: 10px;
+      }
+      .calender, .comment{
+        height: 8px;
+        width: 8px;
+      }
+      .first_merg{
+        position: absolute;
+        bottom: 255px;
+        left: 20px;
+        color: rgb(218, 221, 221);
+      }
+      .second_merg{
+        position: absolute;
+        bottom: 255px;
+        color: rgb(218, 221, 221);
+        left: 310px;
+      }
+      .vertical_line{
+        width: 1px;
+        height: 10px;
+      }
+      .tennis_container{
+        background-color: blue;
+        width: fit-content;
+        height: 9px;
+        padding: 3px 6px 3px 6px;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+      }
+      .football_container{
+        background-color: rgb(243, 255, 78);
+        width: fit-content;
+        height: 9px;
+        padding: 3px 6px 3px 6px;
+        position: absolute;
+        left: 305px;
+        top: 15px;
+      }
+      .game_name{
+        font-size: 8px;
+        margin: auto;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1">
+        <img src="img1.jfif" alt="" class="big_img">
+      </div>
+      <div class="tennis_container">
+        <h2 class="game_name">TENIS</h2>
+      </div>
+      <div class="heading_para first_merg">
+        <h2 class="big_heading">England reach World Cup last 16 with <br>
+        hard-fought win over Argentina</h2>
+        <div class="para_container">
+          <p><img src="icon.jfif" alt="" class="calender">May 19, 2019</p>
+          <p><img src="line2.jfif" alt="" class="vertical_line"></p>
+          <p><img src="comment.jfif" alt="" class="comment">3 Comment</p>
+        </div>
+      </div>
+      <div class="item item2">
+        <img src="img1.jfif" alt="" class="big_img">
+      </div>
+      <div class="football_container">
+        <h2 class="game_name">FOOTBALL</h2>
+      </div>
+      <div class="heading_para second_merg">
+        <h2>We are playing history and Argentina at <br>
+        the World Cup, says Phil Neville</h2>
+        <div class="para_container">
+          <p><img src="icon.jfif" alt="" class="calender">May 19, 2019</p>
+          <p><img src="line2.jfif" alt="" class="vertical_line"></p>
+          <p><img src="comment.jfif" alt="" class="comment">3 Comment</p>
+        </div>
+      </div>
+      <div class="item item3">
+        <div>
+          <img src="img2.jfif" alt="" />
+        </div>
+        <div class="heading_para">
+          <h2>There's a great history of the <br>
+             winner Sandia</h2>
+             <div class="para_container">
+          <p><img src="icon1.jfif" alt="" class="calender"> May 19, 2019</p>
+          <p><img src="line.jfif" alt="" class="vertical_line"></p>
+          <p><img src="icon2.jfif" alt="" class="comment"> 3 Comment</p>
+        </div>
+        </div>
+      </div>
+      <div class="item item4">
+        <div>
+          <img src="img3.jfif" alt="" />
+        </div>
+        <div class="heading_para">
+          <h2>Le Havre does have a growing <br>
+             fan club</h2>
+          <div class="para_container">
+            <p><img src="icon1.jfif" alt="" class="calender"> May 19, 2019</p>
+            <p><img src="line.jfif" alt="" class="vertical_line"></p>
+            <p><img src="icon2.jfif" alt="" class="comment"> 3 Comment</p></div>
+        </div>
+      </div>
+      <div class="item item5">
+        <div>
+          <img src="img4.jfif" alt="" />
+        </div>
+        <div class="heading_para">
+          <h2>It'll be a tough game and a <br>
+             physical game</h2>
+          <div class="para_container">
+            <p><img src="icon1.jfif" alt="" class="calender"> May 19, 2019</p>
+            <p><img src="line.jfif" alt="" class="vertical_line"></p>
+            <p><img src="icon2.jfif" alt="" class="comment"> 3 Comment</p>
+          </div>
+        </div>
+      </div>
+      <div class="item item6">
+        <div>
+          <img src="img5.jfif" alt="" />
+        </div>
+        <div class="heading_para">
+          <h2>It will be hard to break them <br>
+             down</h2>
+          <div class="para_container">
+            <p><img src="icon1.jfif" alt="" class="calender"> May 19, 2019</p>
+            <p><img src="line.jfif" alt="" class="vertical_line"></p>
+            <p><img src="icon2.jfif" alt="" class="comment"> 3 Comment</p>
+          </div>
+        </div>
+      </div>
+      <div class="item item7">
+        <div>
+          <img src="img6.jfif" alt="" />
+        </div>
+        <div class="heading_para">
+          <h2>If we don't score we can't get <br>
+             frustrated</h2>
+          <div class="para_container">
+            <p><img src="icon1.jfif" alt="" class="calender"> May 19, 2019</p>
+            <p><img src="line.jfif" alt="" class="vertical_line"></p>
+            <p><img src="icon2.jfif" alt="" class="comment"> 3 Comment</p>
+          </div>
+        </div>
+      </div>
+      <div class="item item8">
+        <div>
+          <img src="img7.jfif" alt="" />
+        </div>
+        <div class="heading_para">
+          <h2>We've never seen them as <br>
+             organised</h2>
+          <div class="para_container">
+            <p><img src="icon1.jfif" alt="" class="calender"> May 19, 2019</p>
+            <p><img src="line.jfif" alt="" class="vertical_line"></p>
+            <p><img src="icon2.jfif" alt="" class="comment">3 Comment</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
